@@ -21,7 +21,7 @@ const showNavbar = () => {
                     <X />
                 </button>
             </nav>
-            <button className={"nav-btn nav-open -btn"} onClick={showNavbar}>
+            <button className={"nav-btn nav-open-btn"} onClick={showNavbar}>
                 <Menu />
             </button>
         </header>

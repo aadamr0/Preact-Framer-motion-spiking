@@ -38,15 +38,13 @@ header .nav-btn {
     border: none;
     outline: none;
     color: var(--textColour);
-    visibility: hidden;
-    opacity: 0;
+    display: none;
     font-size: 1.8rem;
 }
 
 @media only screen and (max-width: 1024px) {
     header .nav-btn {
-        visibility: visible;
-        opacity: 1;
+        display: block;
     }
     header nav {
         position: fixed;
@@ -60,17 +58,19 @@ header .nav-btn {
         justify-content: center;
         gap: 1.5rem;
         background-color: var(--mainColour);
-        transition: .5s;
-        transform: translateY(-100vh);
+        transition: .25s;
+        transform: translateY(-1rem);
+        opacity: 0;
     }
 
     header .responsive-navbar {
         transform: none;
+        opacity: 1;
     }
 
     nav .nav-close-btn {
         position: absolute;
-        top: 2rem;
+        top: 1rem;
         right: 2rem;
     }
 
