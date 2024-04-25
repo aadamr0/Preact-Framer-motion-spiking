@@ -2,6 +2,7 @@
 To run the project locally:<br>
 - Clone the repository by running `git clone https://github.com/aadamr0/Preact-Navbar-Spiking.git`
 - Run `cd Preact-Navbar-Spiking` to enter the project directory
+- Run `npm run dev`
 - Run `npm install` to install dependencies
 - Follow instructions in the terminal to open the project in the broswer <br>
 <br>
