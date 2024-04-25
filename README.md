@@ -4,4 +4,5 @@ To run the project locally:<br>
 - Run `cd Preact-Navbar-Spiking` to enter the project directory
 - Run `npm install` to install dependencies
 - Follow instructions in the terminal to open the project in the broswer <br>
+<br>
 To see the responsive navbar in effect, you can reduce and increase the broswer's width manually, or change the screen width in the devtools in Chrome (right click the page > Inspect)
